@@ -40,7 +40,6 @@ class MainWindow(QMainWindow, Ui_CipherSystem):
         # super(MainWindow, self).__init__(parent)
         self.setupUi(self)
         self.setFixedSize(self.width(), self.height())
-        self.setWindowIcon(QIcon('1207136.icon'))
         self.initUI()
 
     #   '''    =================================   功   能   初   始   化   =================================    '''
@@ -587,7 +586,6 @@ class DhWindow(QDialog, Ui_Dialog):
     def __init__(self):
         QDialog.__init__(self)
         self.setupUi(self)
-        self.setWindowIcon(QIcon('1207136.icon'))
         self.initUI()
 
     def initUI(self):
